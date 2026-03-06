@@ -27,8 +27,9 @@ env:
 on:
   push:
     branches: [ "main" ]
-    paths:
+    paths-ignore:
       - 'Vehiculo.API/**'
+      - 'Vehiculos.Web/**'
       
   workflow_dispatch:
 
